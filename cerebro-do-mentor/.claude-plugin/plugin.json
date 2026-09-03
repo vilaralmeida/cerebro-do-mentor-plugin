@@ -1,0 +1,18 @@
+{
+  "name": "cerebro-do-mentor",
+  "version": "0.2.0",
+  "description": "Converse com o seu Cérebro do Mentor e cuide dele por aqui: veja o que mudou, entenda a nota de organização, reúna nomes espalhados, pode o vocabulário e responda aos conselhos da equipe. Nada é escrito sem você confirmar.",
+  "author": {
+    "name": "Rodrigo Almeida"
+  },
+  "homepage": "https://cerebrodomentor.com.br",
+  "keywords": [
+    "cerebro-do-mentor",
+    "ontologia",
+    "curadoria",
+    "acervo",
+    "mentor",
+    "conteudo",
+    "grafo"
+  ]
+}

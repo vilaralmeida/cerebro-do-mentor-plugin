@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cerebro-do-mentor": {
+      "type": "http",
+      "url": "https://mcp.cabecinhaserver.cc/mcp"
+    }
+  }
+}

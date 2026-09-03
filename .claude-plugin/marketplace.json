@@ -1,0 +1,18 @@
+{
+  "name": "cerebro-do-mentor",
+  "owner": {
+    "name": "Rodrigo Almeida",
+    "email": "cerebrodomentor@gmail.com"
+  },
+  "metadata": {
+    "description": "O Cérebro do Mentor — o acervo privado de conhecimento do mentor, e as ferramentas para cuidar dele.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "cerebro-do-mentor",
+      "source": "./cerebro-do-mentor",
+      "description": "Converse com o seu Cérebro e cuide dele: o que mudou, a nota de organização, reunir nomes espalhados, podar o vocabulário e responder aos conselhos da equipe."
+    }
+  ]
+}
