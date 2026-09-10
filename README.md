@@ -14,6 +14,22 @@ responda aos conselhos da nossa equipe. **Nada é escrito sem você confirmar.**
 Depois de instalar, conecte o servidor quando o Claude pedir — a autorização é de um
 clique (OAuth) e não pede que você copie token nenhum.
 
+## Como atualizar
+
+⚠️ **As ferramentas do Cérebro se atualizam sozinhas.** Elas vivem no servidor, não no
+plugin: quando melhoramos uma delas, você recebe na próxima conversa, sem fazer nada.
+
+O que **não** vem sozinho é o plugin em si (as habilidades e os atalhos), quando sai uma
+versão nova dele. Para pegá-la:
+
+```
+/plugin
+```
+
+Vá em **Installed**, escolha o *Cérebro do Mentor* e clique em **Update**. Pelo terminal,
+o equivalente é `claude plugin update cerebro-do-mentor@cerebro-do-mentor`; para ver qual
+versão você tem, `claude plugin list`.
+
 ## O que ele traz
 
 - **Habilidades** — o método de cuidar do Cérebro: a ordem dos gestos, os três tempos em
