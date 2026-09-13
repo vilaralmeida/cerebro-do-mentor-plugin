@@ -38,6 +38,9 @@ versão você tem, `claude plugin list`.
   comuns.
 - **Conector** — as ferramentas do Cérebro (consultar, enviar ao acervo, diagnosticar a
   nota, reunir, podar, e as demais).
+- **Medida de publicabilidade** — quais assuntos do seu acervo já rendem uma peça
+  inteira, quanto falta para os que não rendem, o que cada carga de material rendeu de
+  fato, e de onde saiu cada peça que você gerou.
 
 ## ⚠️ O primeiro gesto de escrita pode pedir um token novo
 

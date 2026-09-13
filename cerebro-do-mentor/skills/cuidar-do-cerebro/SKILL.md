@@ -33,7 +33,7 @@ Nunca pule direto para o gesto que escreve.
 
 ## ⚠️ A regra que não se dobra
 
-**Você nunca age sem perguntar.** Cinco ferramentas exigem `confirmado=True` e recusam
+**Você nunca age sem perguntar.** Seis ferramentas exigem `confirmado=True` e recusam
 sem ele; outras três escrevem sem esse parâmetro (`enviar_ao_acervo`, `trazer_fonte`,
 `responder_recomendacao`) — **para essas a regra é a mesma**, só não há trava para
 lembrá-lo.
@@ -64,16 +64,16 @@ Confundir estes dois manda o mentor à ferramenta errada — e a errada não faz
 Se o nome estiver **truncado** (`CFM nº 2.454/2026`, pedaço de `Resolução CFM
 nº 2.454/2026`), não é nenhum dos dois: é fusão no acervo, e o lugar disso é a tela.
 
-## As dezesseis, pelo que custam
+## As vinte e três, pelo que custam
 
 | Custo | Ferramentas |
 |---|---|
-| **Lê, de graça** | `o_que_mudou`, `roteiro`, `diagnosticar_nota`, `triar_fila`, `propor_lote`, `custo_de_podar`, `recomendacoes` |
+| **Lê, de graça** | `o_que_mudou`, `roteiro`, `diagnosticar_nota`, `triar_fila`, `propor_lote`, `custo_de_podar`, `recomendacoes`, `assuntos_por_prontidao`, `saude_do_rotulo`, `rendimento_da_carga`, `o_que_falta_para`, `historico_de_prontidao`, `origem_da_peca` |
 | **Lê, e consome crédito do mentor** | `consultar_cerebro` |
-| **Escreve, com trava de confirmação** | `reunir`, `aceitar_agrupamento`, `podar_rotulo`, `criar_rotulo`, `ocultar_termos` |
+| **Escreve, com trava de confirmação** | `reunir`, `aceitar_agrupamento`, `podar_rotulo`, `criar_rotulo`, `ocultar_termos`, `marcar_assunto_alvo` |
 | **Escreve, sem trava — pergunte igual** | `enviar_ao_acervo`, `trazer_fonte`, `responder_recomendacao` |
 
-As sete de graça não têm por que ser economizadas: **leia antes de propor, sempre**.
+As treze de graça não têm por que ser economizadas: **leia antes de propor, sempre**.
 `consultar_cerebro` tem — faça uma pergunta bem formada em vez de várias sondagens.
 
 ## O que nunca fazer
