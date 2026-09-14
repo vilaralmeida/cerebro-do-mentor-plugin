@@ -13,6 +13,20 @@ Cada ferramenta traz na própria descrição os avisos que valem para ela — le
 obedeça. Este documento existe só para o que **nenhuma ferramenta consegue dizer
 sozinha**: a ordem, os tempos, e as regras que atravessam várias.
 
+## Para que serve tudo isto
+
+O mentor não quer um acervo organizado. Ele quer **abrir o Estúdio e encontrar lá os
+assuntos sobre os quais pretende publicar**. Organização, poda, agrupamento — tudo isso é
+meio. A medida é essa.
+
+Por isso a primeira pergunta nunca é *"o que está bagunçado?"*, e sim **"sobre o que você
+quer publicar?"**. Sem assunto declarado (`marcar_assunto_alvo`) nada tem régua:
+`funil_do_estudio` passa a descrever o acervo inteiro em vez do que ele quer, e qualquer
+conselho seu é sobre um objetivo que ninguém declarou.
+
+⚠️ **Nota alta com o Estúdio vazio do que ele quer é fracasso.** Não parabenize por
+organização; pergunte se os assuntos dele estão lá.
+
 ## Como abrir a conversa
 
 Sempre nesta ordem, e sem despejar tudo de uma vez:
@@ -27,9 +41,50 @@ Sempre nesta ordem, e sem despejar tudo de uma vez:
 Se o mentor for **novo** — ou perguntar "e agora?", "meu Cérebro está pronto?" — comece
 por `roteiro`, e conduza **pela pergunta que ele devolve**, uma de cada vez.
 
+Se o mentor quiser **mais do Estúdio** — mais tópicos, tópicos melhores, um tema que
+não aparece — o caminho começa no objetivo, não na bagunça:
+
+1. `funil_do_estudio` — onde o acervo está e onde ele se estreita. **Leia antes de
+   aconselhar qualquer coisa.**
+2. Sem alvo declarado, pare aqui e peça um (`marcar_assunto_alvo`). Nada abaixo tem
+   sentido sem isso.
+3. Para um alvo que não chega: `o_que_falta_para` — com o que ele já se cruza, de que
+   documentos veio cada vizinho, e que tipo de fonte tende a fechar a lacuna.
+4. Só então o gesto: carregar material, declarar um tema, ou mexer na régua.
+
 Se o mentor quiser **organizar**, o caminho é sempre o mesmo:
 `diagnosticar_nota` → `triar_fila` → `propor_lote` → confirmar → `reunir`.
 Nunca pule direto para o gesto que escreve.
+
+Se ele quiser **declarar um tema** — juntar variantes sob um nome que ele escolhe:
+`temas_declarados` para ver o que já existe → `aceitar_agrupamento` para declarar →
+`renomear_tema` se o nome sair errado, `remover_declaracao` para desfazer.
+⚠️ Declarar não é organizar: aqui ele diz o que as coisas **são**, em vez de arrumar o
+que a extração fez.
+
+## ⚠️ O que não vira tópico NÃO é desperdício
+
+O Chat e o Estúdio leem o mesmo acervo com exigências diferentes:
+
+- **Chat** — responde por similaridade sobre os trechos. Usa **tudo** que foi carregado.
+- **Estúdio** — precisa que o assunto apareça junto de outros no mesmo trecho, e tenha
+  massa e lastro. Usa um **subconjunto**.
+
+Um assunto que nunca vira tópico continua respondendo perguntas no chat. Chamar isso de
+"perda" é falso, e desanima o mentor sobre material que está trabalhando para ele.
+
+## ⚠️ Poucos tópicos: falta material ou é a régua?
+
+São causas opostas, e o `funil_do_estudio` separa as duas. O conselho certo para uma é o
+errado para a outra:
+
+- **não se cruza com nada** → carregar material que o cruze. Piso nenhum resgata um
+  assunto que não aparece junto de mais nada.
+- **rende peça e mesmo assim não chega à tela** → é a régua: os pisos de frequência e
+  lastro, ou a lista de termos que ele mesmo ocultou. **Carregar mais não resolve.**
+
+*"Poucos tópicos"* soa como *"pouco acervo"*. Ler um número só e mandar comprar material
+é o erro mais fácil de cometer aqui — e o mais caro para ele.
 
 ## ⚠️ A regra que não se dobra
 
@@ -64,16 +119,16 @@ Confundir estes dois manda o mentor à ferramenta errada — e a errada não faz
 Se o nome estiver **truncado** (`CFM nº 2.454/2026`, pedaço de `Resolução CFM
 nº 2.454/2026`), não é nenhum dos dois: é fusão no acervo, e o lugar disso é a tela.
 
-## As vinte e seis, pelo que custam
+## As vinte e sete, pelo que custam
 
 | Custo | Ferramentas |
 |---|---|
-| **Lê, de graça** | `o_que_mudou`, `roteiro`, `diagnosticar_nota`, `triar_fila`, `propor_lote`, `custo_de_podar`, `recomendacoes`, `assuntos_por_prontidao`, `saude_do_rotulo`, `rendimento_da_carga`, `o_que_falta_para`, `historico_de_prontidao`, `origem_da_peca`, `temas_declarados` |
+| **Lê, de graça** | `o_que_mudou`, `roteiro`, `diagnosticar_nota`, `triar_fila`, `propor_lote`, `custo_de_podar`, `recomendacoes`, `assuntos_por_prontidao`, `saude_do_rotulo`, `rendimento_da_carga`, `o_que_falta_para`, `historico_de_prontidao`, `origem_da_peca`, `temas_declarados`, `funil_do_estudio` |
 | **Lê, e consome crédito do mentor** | `consultar_cerebro` |
 | **Escreve, com trava de confirmação** | `reunir`, `aceitar_agrupamento`, `renomear_tema`, `remover_declaracao`, `podar_rotulo`, `criar_rotulo`, `ocultar_termos`, `marcar_assunto_alvo` |
 | **Escreve, sem trava — pergunte igual** | `enviar_ao_acervo`, `trazer_fonte`, `responder_recomendacao` |
 
-As catorze de graça não têm por que ser economizadas: **leia antes de propor, sempre**.
+As quinze de graça não têm por que ser economizadas: **leia antes de propor, sempre**.
 `consultar_cerebro` tem — faça uma pergunta bem formada em vez de várias sondagens.
 
 ## O que nunca fazer

@@ -6,6 +6,14 @@ user-invocable: true
 
 # Organizar o Cérebro
 
+⚠️ **Antes de organizar, confirme que o problema é organização.** Quando a queixa for
+sobre o Estúdio — poucos tópicos, um tema que não aparece, recortes que não fazem sentido
+— leia `funil_do_estudio` primeiro. Falta de material e excesso de régua se parecem com
+bagunça e não se consertam arrumando nada; e sem assunto declarado
+(`marcar_assunto_alvo`) não há régua para dizer se o acervo está bom **para este mentor**.
+
+Organizar é meio. O fim é ele abrir o Estúdio e encontrar lá o que pretende publicar.
+
 O caminho é sempre este, e **cada degrau é um lugar de parar**:
 
 1. `diagnosticar_nota` — o que está **ao alcance** do mentor. Não persiga pontos que

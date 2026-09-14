@@ -14,5 +14,15 @@ oposto de um roteiro.
 passos estão cumpridos mas os assuntos rendem pouco, diga o que destrava: **carregar mais
 material** sobre os assuntos fracos — não mexer em configuração.
 
+⚠️ **E o sétimo passo não está na lista: dizer sobre o que ele quer publicar.** O roteiro
+termina em "gerou uma peça" — uma, uma vez. Enquanto ele não declarar os assuntos
+(`marcar_assunto_alvo`), o veredito mede o acervo inteiro, que é outra pergunta. Quando o
+veredito disser que falta declarar, **peça os assuntos antes de comemorar as caixas**: um
+Cérebro saudável com o Estúdio vazio do que ele quer é fracasso, e ele vai sentir isso
+mesmo sem saber nomear.
+
+Declarados os assuntos, o veredito passa a falar deles — e aí "faltam 2 dos 3" vale mais
+que qualquer contagem sobre o acervo.
+
 O resto dos cuidados vem na descrição da ferramenta. A ordem geral está em
 [[cuidar-do-cerebro]].
