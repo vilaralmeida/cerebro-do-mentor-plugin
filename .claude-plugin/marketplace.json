@@ -6,13 +6,13 @@
   },
   "metadata": {
     "description": "O Cérebro do Mentor — o acervo privado de conhecimento do mentor, as ferramentas para cuidar dele, e a medida do que ele já permite publicar.",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   "plugins": [
     {
       "name": "cerebro-do-mentor",
       "source": "./cerebro-do-mentor",
-      "description": "Converse com o seu Cérebro e cuide dele: o que mudou, a nota de organização, reunir nomes espalhados, podar o vocabulário, responder aos conselhos da equipe — e medir o que você consegue publicar: quais assuntos rendem peça, o que falta para os que não rendem, e o que cada carga rendeu."
+      "description": "Converse com o seu Cérebro e cuide dele: o que mudou, a nota de organização, reunir nomes espalhados, podar o vocabulário, responder aos conselhos da equipe, declarar e renomear os seus temas — e medir o que você consegue publicar: quais assuntos rendem peça, o que falta para os que não rendem, e o que cada carga rendeu."
     }
   ]
 }
