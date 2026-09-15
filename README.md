@@ -19,16 +19,47 @@ clique (OAuth) e não pede que você copie token nenhum.
 ⚠️ **As ferramentas do Cérebro se atualizam sozinhas.** Elas vivem no servidor, não no
 plugin: quando melhoramos uma delas, você recebe na próxima conversa, sem fazer nada.
 
-O que **não** vem sozinho é o plugin em si (as habilidades e os atalhos), quando sai uma
-versão nova dele. Para pegá-la:
+O que **não** vem sozinho é o plugin em si — as habilidades e os atalhos. E como você
+recebe uma versão nova dele **depende de como ele chegou até você**. São duas formas, e o
+mesmo comando não serve para as duas.
+
+Para descobrir qual é a sua:
 
 ```
-/plugin
+claude plugin list
 ```
 
-Vá em **Installed**, escolha o *Cérebro do Mentor* e clique em **Update**. Pelo terminal,
-o equivalente é `claude plugin update cerebro-do-mentor@cerebro-do-mentor`; para ver qual
-versão você tem, `claude plugin list`.
+A linha do *Cérebro do Mentor* mostra a origem.
+
+### Se você mesmo adicionou o marketplace
+
+O Claude guarda uma **cópia do catálogo** na sua máquina, e `update` consulta essa cópia —
+não o repositório. Então são dois passos, nesta ordem:
+
+```
+claude plugin marketplace update cerebro-do-mentor
+claude plugin update cerebro-do-mentor@cerebro-do-mentor
+```
+
+⚠️ **Pular o primeiro é o engano mais comum.** O segundo sozinho compara a sua versão com
+um catálogo velho, conclui que não há nada novo, e não avisa que só olhou a cópia.
+
+Na interface é o mesmo caminho: atualize o **marketplace** e depois o plugin, em
+`/plugin`.
+
+### Se ele chegou pelas configurações da sua conta
+
+Aqui você **não atualiza à mão**: o plugin é empacotado e entregue pela sincronização da
+conta, e a versão nova chega quando ela roda. `update` não força isso.
+
+Para saber o que você tem hoje, o `claude plugin list` mostra a versão instalada; a data
+da última sincronização fica no `manifest.json` da pasta sincronizada.
+
+⚠️ **Se a versão instalada estiver atrás desta e não avançar**, a sincronização é o lugar
+a olhar — não o plugin. Enquanto isso, dá para receber as versões novas adicionando o
+marketplace por conta própria (a seção acima), desde que você **desinstale antes a cópia
+sincronizada**: com as duas ao mesmo tempo, as habilidades aparecem duplicadas e não há
+como saber qual está valendo.
 
 ## O que ele traz
 
