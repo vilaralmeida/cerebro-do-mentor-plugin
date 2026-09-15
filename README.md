@@ -47,19 +47,28 @@ um catálogo velho, conclui que não há nada novo, e não avisa que só olhou a
 Na interface é o mesmo caminho: atualize o **marketplace** e depois o plugin, em
 `/plugin`.
 
-### Se ele chegou pelas configurações da sua conta
+### Se ele chegou pelas configurações da sua conta (Claude Desktop)
 
-Aqui você **não atualiza à mão**: o plugin é empacotado e entregue pela sincronização da
-conta, e a versão nova chega quando ela roda. `update` não força isso.
+Aqui o plugin é **empacotado pela sua conta** a partir deste repositório e só então
+entregue ao Claude Desktop. O Desktop consulta a conta com frequência — mas a conta não
+reempacota sozinha quando sai versão nova. Quem dispara isso é você, em **Customize →
+Plugins**, nesta ordem:
 
-Para saber o que você tem hoje, o `claude plugin list` mostra a versão instalada; a data
-da última sincronização fica no `manifest.json` da pasta sincronizada.
+1. **Desligue** o plugin *Cérebro do Mentor* (*Turn off*).
+2. Clique em **Update** no marketplace dele.
+3. **Ligue** o plugin de novo (*Turn on*).
 
-⚠️ **Se a versão instalada estiver atrás desta e não avançar**, a sincronização é o lugar
-a olhar — não o plugin. Enquanto isso, dá para receber as versões novas adicionando o
-marketplace por conta própria (a seção acima), desde que você **desinstale antes a cópia
-sincronizada**: com as duas ao mesmo tempo, as habilidades aparecem duplicadas e não há
-como saber qual está valendo.
+⚠️ **Com o plugin ligado, o Update falha** — aparece *"Couldn't check for updates. Try
+again."*, e tentar de novo não resolve. Desligar antes é o passo que destrava. Não
+encontramos isso documentado: foi medido num Desktop real, que ficou quatro versões
+atrás até esta sequência.
+
+⚠️ **Confira que a fonte é este repositório**, `vilaralmeida/cerebro-do-mentor-plugin`.
+Um marketplace apontado para outro repositório — por exemplo, um repositório privado sem
+`.claude-plugin/marketplace.json` na raiz — nunca consegue checar atualização.
+
+⚠️ **`claude plugin marketplace update` não serve aqui.** Ele configura o Claude **Code**
+(`~/.claude/plugins/`); o Desktop não lê essa configuração.
 
 ## O que ele traz
 
