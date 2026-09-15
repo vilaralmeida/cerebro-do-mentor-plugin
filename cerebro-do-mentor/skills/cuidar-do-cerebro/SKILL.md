@@ -15,9 +15,8 @@ sozinha**: a ordem, os tempos, e as regras que atravessam várias.
 
 ## Para que serve tudo isto
 
-O mentor não quer um acervo organizado. Ele quer **abrir o Estúdio e encontrar lá os
-assuntos sobre os quais pretende publicar**. Organização, poda, agrupamento — tudo isso é
-meio. A medida é essa.
+O mentor não quer um acervo organizado. Ele quer **publicar o que tem a dizer**.
+Organização, poda, agrupamento — tudo isso é meio. A medida é essa.
 
 Por isso a primeira pergunta nunca é *"o que está bagunçado?"*, e sim **"sobre o que você
 quer publicar?"**. Sem assunto declarado (`marcar_assunto_alvo`) nada tem régua:
@@ -26,6 +25,21 @@ conselho seu é sobre um objetivo que ninguém declarou.
 
 ⚠️ **Nota alta com o Estúdio vazio do que ele quer é fracasso.** Não parabenize por
 organização; pergunte se os assuntos dele estão lá.
+
+### E são DUAS portas, não uma
+
+| porta | parte de | exige | quando é a certa |
+|---|---|---|---|
+| **Estúdio** | um tópico do grafo | coocorrência, massa e lastro | o assunto já está sustentado pelo acervo |
+| **Conversa** | a **pergunta** do mentor | nada além da resposta | o assunto ele domina, e o grafo ainda não sustenta |
+
+No Console, **toda resposta do chat vira peça** — em qualquer formato do catálogo, com a
+prosa da própria resposta, sem reescrita. Um assunto que não vira tópico continua
+publicável por ali.
+
+⚠️ Isto muda o conselho quando o Estúdio não oferece o que ele quer. Antes, a única saída
+era carregar material e esperar. Hoje, **a saída imediata é perguntar no chat e publicar
+a resposta** — e cuidar do acervo em paralelo, para que o tema um dia se sustente sozinho.
 
 ## Como abrir a conversa
 
@@ -62,7 +76,7 @@ Se ele quiser **declarar um tema** — juntar variantes sob um nome que ele esco
 ⚠️ Declarar não é organizar: aqui ele diz o que as coisas **são**, em vez de arrumar o
 que a extração fez.
 
-## ⚠️ O que não vira tópico NÃO é desperdício
+## ⚠️ O que não vira tópico NÃO é desperdício — e hoje nem fica parado
 
 O Chat e o Estúdio leem o mesmo acervo com exigências diferentes:
 
@@ -70,18 +84,30 @@ O Chat e o Estúdio leem o mesmo acervo com exigências diferentes:
 - **Estúdio** — precisa que o assunto apareça junto de outros no mesmo trecho, e tenha
   massa e lastro. Usa um **subconjunto**.
 
-Um assunto que nunca vira tópico continua respondendo perguntas no chat. Chamar isso de
-"perda" é falso, e desanima o mentor sobre material que está trabalhando para ele.
+Um assunto que nunca vira tópico continua respondendo perguntas no chat — e **a resposta
+vira peça publicável**. Chamar isso de "perda" era falso quando o chat só respondia;
+hoje é mais errado ainda, porque existe um caminho até a publicação.
+
+⚠️ Quando o mentor reclamar de um tema que não aparece no Estúdio, ofereça as duas coisas
+na mesma frase: o que destrava o tópico (material, régua ou declaração) **e** que ele
+pode publicar sobre isso hoje, perguntando no chat do Console e virando a resposta em
+peça. A primeira leva semanas; a segunda, minutos.
 
 ## ⚠️ Poucos tópicos: falta material ou é a régua?
 
-São causas opostas, e o `funil_do_estudio` separa as duas. O conselho certo para uma é o
-errado para a outra:
+São causas diferentes — duas delas opostas — e o conselho certo para uma é o errado para
+a outra. `funil_do_estudio` separa as duas primeiras:
 
 - **não se cruza com nada** → carregar material que o cruze. Piso nenhum resgata um
   assunto que não aparece junto de mais nada.
 - **rende peça e mesmo assim não chega à tela** → é a régua: os pisos de frequência e
   lastro, ou a lista de termos que ele mesmo ocultou. **Carregar mais não resolve.**
+- **tinha lastro e perdeu** → o lastro pode ter vindo de material escrito com IA, que
+  desde o #1279 não conta como segunda fonte. Aqui o gesto é **fonte de fora**
+  (`trazer_fonte` ou upload), nunca outro destilado por `enviar_ao_acervo`.
+- **a lista tem teto** → o Estúdio mostra no máximo 100 candidatos, e num acervo grande
+  sobra tópico legítimo fora da tela. Não é bagunça nem falta de material; não mande
+  arrumar nada.
 
 *"Poucos tópicos"* soa como *"pouco acervo"*. Ler um número só e mandar comprar material
 é o erro mais fácil de cometer aqui — e o mais caro para ele.
@@ -107,6 +133,7 @@ O mesmo gesto pode valer agora, valer só depois, ou as duas coisas. **Diga semp
 | **Agora, e sobrevive à próxima carga** | `reunir` | Os fatos mudam de rótulo na hora, e continuam assim depois. |
 | **Agora, mas só na leitura** | `ocultar_termos`, `criar_rotulo(ancora=True)`, `aceitar_agrupamento` (a lista de tópicos) | Muda o que ele vê nas pautas hoje. Não muda o que já foi extraído. |
 | **Só na próxima carga** | `podar_rotulo`, `criar_rotulo`, `aceitar_agrupamento` (o reconhecimento) | ⚠️ **Ele não vai ver nada mudar hoje.** Avise antes, ou ele repete o gesto achando que falhou. |
+| **Depois de ele aprovar, e da carga** | `enviar_ao_acervo`, `trazer_fonte` | O texto entra como pendente; nada muda até ele aprovar no Console e a carga rodar. ⚠️ E o que entra por `enviar_ao_acervo` **nunca** conta como lastro: alimenta chat e peças, não atravessa piso. |
 
 ## Dois fluxos que parecem um só
 

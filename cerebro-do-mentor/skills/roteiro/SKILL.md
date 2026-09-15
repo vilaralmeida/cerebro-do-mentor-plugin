@@ -14,6 +14,11 @@ oposto de um roteiro.
 passos estão cumpridos mas os assuntos rendem pouco, diga o que destrava: **carregar mais
 material** sobre os assuntos fracos — não mexer em configuração.
 
+⚠️ E diga junto que ele **não precisa esperar por isso para publicar**: no Console, uma
+pergunta no chat vira peça com a prosa da própria resposta, em qualquer formato. Um
+mentor novo com acervo fino ouve "carregue mais material" e entende "volte em um mês" —
+quando ele pode publicar hoje sobre o que já domina.
+
 ⚠️ **E o sétimo passo não está na lista: dizer sobre o que ele quer publicar.** O roteiro
 termina em "gerou uma peça" — uma, uma vez. Enquanto ele não declarar os assuntos
 (`marcar_assunto_alvo`), o veredito mede o acervo inteiro, que é outra pergunta. Quando o

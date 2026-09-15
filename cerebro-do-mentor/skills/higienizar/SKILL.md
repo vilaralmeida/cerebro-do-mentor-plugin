@@ -12,7 +12,13 @@ sobre o Estúdio — poucos tópicos, um tema que não aparece, recortes que nã
 bagunça e não se consertam arrumando nada; e sem assunto declarado
 (`marcar_assunto_alvo`) não há régua para dizer se o acervo está bom **para este mentor**.
 
-Organizar é meio. O fim é ele abrir o Estúdio e encontrar lá o que pretende publicar.
+Organizar é meio. O fim é ele **publicar o que tem a dizer**.
+
+⚠️ E organizar não é o único caminho até lá: no Console, qualquer resposta do chat vira
+peça. Se a queixa vier com urgência — *"preciso publicar sobre isso"* —, diga isso antes
+de propor qualquer limpeza. A higiene melhora o que o Estúdio oferece nas próximas
+semanas; a conversa publica hoje. Uma coisa não substitui a outra, e esconder a segunda
+enquanto ele espera a primeira é o que faz o produto parecer que não funciona.
 
 O caminho é sempre este, e **cada degrau é um lugar de parar**:
 
