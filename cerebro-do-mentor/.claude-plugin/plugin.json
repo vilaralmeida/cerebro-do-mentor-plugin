@@ -1,7 +1,7 @@
 {
   "name": "cerebro-do-mentor",
-  "version": "0.8.1",
-  "description": "Converse com o seu Cérebro do Mentor e cuide dele por aqui: veja o que mudou, entenda a nota de organização, reúna nomes espalhados, pode o vocabulário e responda aos conselhos da equipe. Declare sobre o que pretende publicar e acompanhe esses assuntos até o Estúdio: o que já rende peça, o que falta para os que não rendem, onde o acervo se estreita e de onde cada peça saiu. Declare os seus temas, corrija o nome deles e veja quais já valem. Nada é escrito sem você confirmar.",
+  "version": "0.9.0",
+  "description": "Converse com o seu Cérebro do Mentor e cuide dele por aqui: veja o que mudou, entenda a nota de organização, reúna nomes espalhados — ou dispense da lista os que não servem, ou reúna num tema de interesse seu —, pode o vocabulário e responda aos conselhos da equipe. Declare sobre o que pretende publicar e acompanhe esses assuntos até o Estúdio: o que já rende peça, o que falta para os que não rendem, onde o acervo se estreita e de onde cada peça saiu. Declare os seus temas, corrija o nome deles e veja quais já valem. Veja de onde vem cada recorte do Estúdio e esconda, fixe ou acrescente os que quiser. Nada é escrito sem você confirmar.",
   "author": {
     "name": "Rodrigo Almeida"
   },

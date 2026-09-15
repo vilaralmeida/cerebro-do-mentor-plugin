@@ -1,6 +1,6 @@
 ---
 name: cuidar-do-cerebro
-description: Use sempre que a conversa for sobre o Cérebro do Mentor — consultar o acervo privado do mentor, salvar conhecimento nele, ou cuidar dele: a nota de organização, nomes espalhados, rótulos, temas do Estúdio, poda de vocabulário, conselhos da equipe, ou perguntas como "como está o meu Cérebro", "o que falta", "o que melhorar", "o que mudou". Carrega a ORDEM dos gestos e as regras que valem entre ferramentas — as descrições de cada ferramenta cuidam do resto.
+description: Use sempre que a conversa for sobre o Cérebro do Mentor — consultar o acervo privado do mentor, salvar conhecimento nele, ou cuidar dele: a nota de organização, nomes espalhados, rótulos, temas do Estúdio, temas de interesse, recortes do Estúdio, poda de vocabulário, conselhos da equipe, ou perguntas como "como está o meu Cérebro", "o que falta", "o que melhorar", "o que mudou". Carrega a ORDEM dos gestos e as regras que valem entre ferramentas — as descrições de cada ferramenta cuidam do resto.
 ---
 
 # Cuidar do Cérebro do Mentor
@@ -120,7 +120,7 @@ a outra. `funil_do_estudio` separa as duas primeiras:
 
 ## ⚠️ A regra que não se dobra
 
-**Você nunca age sem perguntar.** Nove ferramentas exigem `confirmado=True` e recusam
+**Você nunca age sem perguntar.** Doze ferramentas exigem `confirmado=True` e recusam
 sem ele; outras três escrevem sem esse parâmetro (`enviar_ao_acervo`, `trazer_fonte`,
 `responder_recomendacao`) — **para essas a regra é a mesma**, só não há trava para
 lembrá-lo.
@@ -137,7 +137,7 @@ O mesmo gesto pode valer agora, valer só depois, ou as duas coisas. **Diga semp
 | Quando vale | Gestos | O que dizer ao mentor |
 |---|---|---|
 | **Agora, e sobrevive à próxima carga** | `reunir` | Os fatos mudam de rótulo na hora, e continuam assim depois. |
-| **Agora, mas só na leitura** | `ocultar_termos`, `criar_rotulo(ancora=True)`, `aceitar_agrupamento` (a lista de tópicos) | Muda o que ele vê nas pautas hoje. Não muda o que já foi extraído. |
+| **Agora, mas só na leitura** | `ocultar_termos`, `criar_rotulo(ancora=True)`, `criar_tema_de_interesse`, `ajustar_recorte`, `aceitar_agrupamento` (a lista de tópicos) | Muda o que ele vê nas pautas hoje. Não muda o que já foi extraído. |
 | **Só na próxima carga** | `podar_rotulo`, `criar_rotulo`, `aceitar_agrupamento` (o reconhecimento) | ⚠️ **Ele não vai ver nada mudar hoje.** Avise antes, ou ele repete o gesto achando que falhou. |
 | **Depois de ele aprovar, e da carga** | `enviar_ao_acervo`, `trazer_fonte` | O texto entra como pendente; nada muda até ele aprovar no Console e a carga rodar. ⚠️ E o que entra por `enviar_ao_acervo` **nunca** conta como lastro: alimenta chat e peças, não atravessa piso. |
 
@@ -149,19 +149,34 @@ Confundir estes dois manda o mentor à ferramenta errada — e a errada não faz
 - **`aceitar_agrupamento`** — nomes *diferentes* que significam a mesma coisa
   (`CFM` e `Conselho Federal de Medicina`). Declara equivalência.
 
+E um terceiro, que tem nome parecido com o segundo e não é nada parecido:
+
+- **`criar_tema_de_interesse`** — uma *categoria* do mentor ("Governança de IA"), para
+  servir de destino ao `reunir`. Não é `temas_declarados` (grafia de um nome) nem
+  `criar_rotulo` (vocabulário do extrator): o tema **não** entra no extrator, nasce vazio
+  e só recebe o que ele reunir ali. Reunir num tema move **todos** os pedaços, e são mais
+  fatos que o destino sugerido — diga o número.
+
+E um par que parece o mesmo gesto e não é:
+
+- **`ajustar_recorte(acao="esconder")`** tira o nome dos RECORTES de um tópico. O nome
+  continua sendo assunto.
+- **`ocultar_termos`** tira o nome das PAUTAS. Usar este para o caso de cima some com um
+  assunto que o mentor queria.
+
 Se o nome estiver **truncado** (`CFM nº 2.454/2026`, pedaço de `Resolução CFM
 nº 2.454/2026`), não é nenhum dos dois: é fusão no acervo, e o lugar disso é a tela.
 
-## As vinte e oito, pelo que custam
+## As trinta e três, pelo que custam
 
 | Custo | Ferramentas |
 |---|---|
-| **Lê, de graça** | `o_que_mudou`, `roteiro`, `diagnosticar_nota`, `triar_fila`, `propor_lote`, `custo_de_podar`, `recomendacoes`, `assuntos_por_prontidao`, `saude_do_rotulo`, `rendimento_da_carga`, `o_que_falta_para`, `historico_de_prontidao`, `origem_da_peca`, `temas_declarados`, `funil_do_estudio` |
+| **Lê, de graça** | `o_que_mudou`, `roteiro`, `diagnosticar_nota`, `triar_fila`, `propor_lote`, `custo_de_podar`, `recomendacoes`, `assuntos_por_prontidao`, `saude_do_rotulo`, `rendimento_da_carga`, `o_que_falta_para`, `historico_de_prontidao`, `origem_da_peca`, `temas_declarados`, `temas_de_interesse`, `recortes_do_topico`, `funil_do_estudio` |
 | **Lê, e consome crédito do mentor** | `consultar_cerebro` |
-| **Escreve, com trava de confirmação** | `reunir`, `aceitar_agrupamento`, `renomear_tema`, `remover_declaracao`, `podar_rotulo`, `criar_rotulo`, `ocultar_termos`, `marcar_assunto_alvo`, `virar_conversa_em_peca` |
+| **Escreve, com trava de confirmação** | `reunir`, `aceitar_agrupamento`, `renomear_tema`, `remover_declaracao`, `podar_rotulo`, `criar_rotulo`, `ocultar_termos`, `dispensar_da_fila`, `criar_tema_de_interesse`, `ajustar_recorte`, `marcar_assunto_alvo`, `virar_conversa_em_peca` |
 | **Escreve, sem trava — pergunte igual** | `enviar_ao_acervo`, `trazer_fonte`, `responder_recomendacao` |
 
-As quinze de graça não têm por que ser economizadas: **leia antes de propor, sempre**.
+As dezessete de graça não têm por que ser economizadas: **leia antes de propor, sempre**.
 `consultar_cerebro` tem — faça uma pergunta bem formada em vez de várias sondagens.
 
 ## O que nunca fazer
