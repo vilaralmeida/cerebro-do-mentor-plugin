@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "O Cérebro do Mentor — o acervo privado de conhecimento do mentor, as ferramentas para cuidar dele, e a medida de quanto ele já reflete os assuntos sobre os quais o mentor quer publicar.",
-    "version": "0.7.0"
+    "version": "0.8.0"
   },
   "plugins": [
     {
