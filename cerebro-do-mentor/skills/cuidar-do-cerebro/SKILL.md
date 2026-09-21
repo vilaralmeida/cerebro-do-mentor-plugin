@@ -62,7 +62,8 @@ Se o mentor for **novo** — ou perguntar "e agora?", "meu Cérebro está pronto
 por `roteiro`, e conduza **pela pergunta que ele devolve**, uma de cada vez.
 
 Se o mentor quiser **mais do Estúdio** — mais tópicos, tópicos melhores, um tema que
-não aparece — o caminho começa no objetivo, não na bagunça:
+não aparece — o caminho começa no objetivo, não na bagunça (o passo a passo por assunto
+está em [[publicar-meus-assuntos]]):
 
 1. `funil_do_estudio` — onde o acervo está e onde ele se estreita. **Leia antes de
    aconselhar qualquer coisa.**
@@ -109,14 +110,27 @@ a outra. `funil_do_estudio` separa as duas primeiras:
 - **rende peça e mesmo assim não chega à tela** → é a régua: os pisos de frequência e
   lastro, ou a lista de termos que ele mesmo ocultou. **Carregar mais não resolve.**
 - **tinha lastro e perdeu** → o lastro pode ter vindo de material escrito com IA, que
-  desde o #1279 não conta como segunda fonte. Aqui o gesto é **fonte de fora**
-  (`trazer_fonte` ou upload), nunca outro destilado por `enviar_ao_acervo`.
+  desde o #1279 não conta como segunda fonte. Aqui o gesto é **material dele carregado
+  no Console**, nunca outro destilado por `enviar_ao_acervo`. ⚠️ E nunca `trazer_fonte`:
+  a fonte entra como referência, sem fatos, e não move nada no Estúdio.
 - **a lista tem teto** → o Estúdio mostra no máximo 100 candidatos, e num acervo grande
   sobra tópico legítimo fora da tela. Não é bagunça nem falta de material; não mande
   arrumar nada.
 
 *"Poucos tópicos"* soa como *"pouco acervo"*. Ler um número só e mandar comprar material
 é o erro mais fácil de cometer aqui — e o mais caro para ele.
+
+## Os números da página Qualidade
+
+O topo da página Qualidade tem quatro indicadores, e cada um tem a sua skill. `funil_do_estudio`
+traz os quatro já julgados — use o veredito que vier, não recalcule.
+
+| Indicador | O que move | Skill |
+|---|---|---|
+| Qualquer um — "o que significa?" | explicar antes de agir | [[qualidade]] |
+| Assuntos que você declarou | declarar, e material dele por assunto | [[publicar-meus-assuntos]] |
+| Recortes com lastro · Tópicos com recorte firme | material dele por tópico, juntar grafias | [[firmar-recortes]] |
+| Rendem peça e não chegam à tela | declarar, ou a régua no Console — **nunca** material | [[destravar-a-regua]] |
 
 ## ⚠️ A regra que não se dobra
 

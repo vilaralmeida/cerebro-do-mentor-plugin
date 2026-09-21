@@ -27,7 +27,8 @@ Cérebro saudável com o Estúdio vazio do que ele quer é fracasso, e ele vai s
 mesmo sem saber nomear.
 
 Declarados os assuntos, o veredito passa a falar deles — e aí "faltam 2 dos 3" vale mais
-que qualquer contagem sobre o acervo.
+que qualquer contagem sobre o acervo. Para levar cada um até o Estúdio, siga
+[[publicar-meus-assuntos]].
 
 O resto dos cuidados vem na descrição da ferramenta. A ordem geral está em
 [[cuidar-do-cerebro]].
