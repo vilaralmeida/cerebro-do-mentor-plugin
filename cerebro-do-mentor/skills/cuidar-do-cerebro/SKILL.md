@@ -109,10 +109,13 @@ a outra. `funil_do_estudio` separa as duas primeiras:
   assunto que não aparece junto de mais nada.
 - **rende peça e mesmo assim não chega à tela** → é a régua: os pisos de frequência e
   lastro, ou a lista de termos que ele mesmo ocultou. **Carregar mais não resolve.**
-- **tinha lastro e perdeu** → o lastro pode ter vindo de material escrito com IA, que
-  desde o #1279 não conta como segunda fonte. Aqui o gesto é **material dele carregado
-  no Console**, nunca outro destilado por `enviar_ao_acervo`. ⚠️ E nunca `trazer_fonte`:
-  a fonte entra como referência, sem fatos, e não move nada no Estúdio.
+- **tinha lastro e perdeu** → o lastro pode ter vindo de **eco**: uma resposta do próprio
+  Cérebro que voltou ao acervo. O servidor mede isso pelo conteúdo e deixa o eco fora do
+  lastro — não é segunda fonte. O gesto é **conhecimento dele em mais um documento**,
+  carregado no Console ou redigido com você e enviado por `enviar_ao_acervo`; ser escrito
+  com IA não tira o valor, desde que seja dele. ⚠️ Nunca reenvie resposta do Cérebro, e
+  nunca `trazer_fonte`: a fonte entra como referência, sem fatos, e não move nada no
+  Estúdio.
 - **a lista tem teto** → o Estúdio mostra no máximo 100 candidatos, e num acervo grande
   sobra tópico legítimo fora da tela. Não é bagunça nem falta de material; não mande
   arrumar nada.
@@ -120,17 +123,38 @@ a outra. `funil_do_estudio` separa as duas primeiras:
 *"Poucos tópicos"* soa como *"pouco acervo"*. Ler um número só e mandar comprar material
 é o erro mais fácil de cometer aqui — e o mais caro para ele.
 
-## Os números da página Qualidade
+## Os quatro números do Estúdio
 
-O topo da página Qualidade tem quatro indicadores, e cada um tem a sua skill. `funil_do_estudio`
-traz os quatro já julgados — use o veredito que vier, não recalcule.
+O placar tem quatro indicadores, e cada um tem a sua skill. `funil_do_estudio` traz os quatro
+já julgados — use o veredito que vier, não recalcule. No Console os quatro ficam na Início,
+logo abaixo da trilha (Início › Bons ou ruins?), e o que não sai "bom" também acende um alerta
+(a tabela seguinte).
 
 | Indicador | O que move | Skill |
 |---|---|---|
 | Qualquer um — "o que significa?" | explicar antes de agir | [[qualidade]] |
 | Assuntos que você declarou | declarar, e material dele por assunto | [[publicar-meus-assuntos]] |
 | Recortes com lastro · Tópicos com recorte firme | material dele por tópico, juntar grafias | [[firmar-recortes]] |
-| Rendem peça e não chegam à tela | declarar, ou a régua no Console — **nunca** material | [[destravar-a-regua]] |
+| Rendem peça e não chegam à tela | declarar, ou a régua em Configuração › As réguas do Estúdio — **nunca** material | [[destravar-a-regua]] |
+
+## Os alertas da Início
+
+A Início abre com a trilha dos assuntos dele e, logo abaixo, os **alertas acesos** — cada
+um com um gesto só. Quando o mentor chegar dizendo "apareceu um alerta", é por aqui:
+
+| Alerta na Início | O gesto | Skill |
+|---|---|---|
+| «X» ainda não virou tópico | o que falta, por assunto | [[publicar-meus-assuntos]] |
+| «X» tem N recortes a confirmar | confirmar um a um, com o critério | [[firmar-recortes]] |
+| «X» e «Y» parecem a mesma coisa | juntar, se forem — `temas_declarados`, depois `aceitar_agrupamento` | esta, em **Dois fluxos que parecem um só** |
+| O tema «X» ainda não vira tópico | marcar como tópico — na tela ou `criar_tema_de_interesse` com `ancora=True` | [[destravar-a-regua]] |
+| «X» não tem nenhum recorte firme · N dos seus tópicos não têm nenhum recorte firme | material dele por tópico — o botão abre a gaveta do assunto | [[firmar-recortes]] |
+| Os recortes dos seus assuntos se apoiam em pouco material | idem | [[firmar-recortes]] |
+| «X» rende peça e não chega ao Estúdio · N dos seus assuntos rendem e não chegam | a régua — **nunca** material | [[destravar-a-regua]] |
+| A carga dos últimos 30 dias: N% do que trouxe virou pauta | ver o que rendeu antes de repetir o formato — **nunca** "carregue mais" | [[medir-a-carga]] |
+
+⚠️ Alerta **apagado** não é "tudo certo" quando a Início diz que alguma leitura não
+respondeu — repita isso ao mentor em vez de tranquilizá-lo.
 
 ## ⚠️ A regra que não se dobra
 
@@ -142,6 +166,20 @@ lembrá-lo.
 E confirmação é **item a item**. Se o mentor aprovou dez nomes, faça um, diga o que
 aconteceu, e siga. Um lote que falha no meio sem dizer qual passou é pior que dez gestos
 separados.
+
+## Depois do gesto: onde conferir
+
+Todo gesto termina dizendo **onde o mentor vê o efeito**. Todo dia às 05h10 o Cérebro tira
+uma foto de cada assunto que ele declarou, e a linha do assunto em **Início › A trilha dos
+seus assuntos** mostra o que mudou desde ela: "hoje: rende peça → virou tópico", ou
+"hoje: 1 → 2 recortes firmes". `funil_do_estudio` traz o mesmo "hoje:" na conversa.
+
+- Gesto que vale **agora** (ver a tabela abaixo) e mexe num assunto declarado: diga qual
+  linha deve mudar e confira com `funil_do_estudio` antes de dizer que mudou.
+- Gesto que vale **só na próxima carga**: diga que a linha **não** vai mudar hoje — senão
+  ele olha, não vê nada e desfaz.
+- Se a linha disser "a régua mudou", o degrau mudou pelo corte, não pelo acervo. Não
+  comemore.
 
 ## Os três tempos — e é aqui que o mentor se frustra
 

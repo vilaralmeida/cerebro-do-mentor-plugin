@@ -76,6 +76,8 @@ Um marketplace apontado para outro repositório — por exemplo, um repositório
   que cada um vale, e quando é melhor usar o Console em vez da conversa.
 - **`/roteiro`, `/o-que-mudou`, `/higienizar`** — atalhos para os começos de conversa mais
   comuns.
+- **`/medir-a-carga`** — o que uma carga de material rendeu em pauta, e que formato de
+  fonte vale repetir.
 - **`/qualidade`, `/publicar-meus-assuntos`, `/firmar-recortes`, `/destravar-a-regua`** —
   o placar da página Qualidade: o que cada número quer dizer e o gesto que move cada um.
 - **Conector** — as ferramentas do Cérebro (consultar, enviar ao acervo, diagnosticar a

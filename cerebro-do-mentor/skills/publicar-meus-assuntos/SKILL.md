@@ -1,6 +1,6 @@
 ---
 name: publicar-meus-assuntos
-description: Use quando o mentor quiser publicar sobre um assunto e o Estúdio não oferecer — "quero publicar sobre X", "meu tema não aparece", "por que X não virou tópico?", "o que falta para eu publicar sobre isso?" — ou quando ainda não declarou sobre o que quer publicar. Move o indicador "Assuntos que você declarou" da página Qualidade, assunto por assunto.
+description: Use quando o mentor quiser publicar sobre um assunto e o Estúdio não oferecer — "quero publicar sobre X", "meu tema não aparece", "por que X não virou tópico?", "o que falta para eu publicar sobre isso?" — ou quando ainda não declarou sobre o que quer publicar. Move a trilha dos assuntos declarados, no topo da Início do Console, assunto por assunto.
 user-invocable: true
 ---
 
@@ -31,8 +31,12 @@ material suficiente continua fora.
 
 ## 2. Onde cada assunto parou
 
-A resposta do funil diz a etapa de cada assunto declarado, de 1 a 5. Trate **um por vez**,
-e cada etapa pede um gesto diferente:
+A resposta do funil diz a etapa de cada assunto declarado, de 1 a 5 — a mesma trilha que
+o mentor vê no topo da Início do Console (Início › A trilha dos seus assuntos). Depois de
+um gesto, é lá que ele confere onde o assunto está agora. Na linha de cada assunto há uma
+gaveta com o detalhe: recorte a recorte, se ele já está no Estúdio; a distância até o piso,
+se falta vizinho. É o mesmo número que o funil te devolve — mande-o abrir ali. Trate **um por vez**, e cada etapa
+pede um gesto diferente:
 
 | Etapa | O que quer dizer | O gesto |
 |---|---|---|
@@ -47,11 +51,14 @@ para olhar os recortes dele agora.
 
 ## ⚠️ Que material fecha a lacuna — e qual não fecha
 
-- **Serve:** documento do próprio mentor (aula, artigo, transcrição, caso) carregado no
-  Console. É o único que cria fatos **e** conta como segunda fonte.
-- **Ajuda pouco:** texto destilado por `enviar_ao_acervo`. Ele cria fatos e pode fazer o
-  assunto aparecer, mas **não conta como lastro** — o assunto pode passar a render e parar
-  barrado pelo piso de documentos. Diga isso antes, ou ele manda o texto e acha que falhou.
+- **Serve:** conhecimento do próprio mentor em mais um documento — aula, artigo,
+  transcrição, caso carregado no Console, **ou** texto que ele redigiu com você e enviou
+  por `enviar_ao_acervo`. Os dois criam fatos **e** contam como segunda fonte. Ser escrito
+  com IA não desconta nada: o que conta é o conhecimento ser dele (#1368).
+- **Não serve:** reenviar uma resposta do próprio Cérebro. É **eco**: o servidor mede o
+  conteúdo contra o que o Cérebro já produziu e deixa o eco fora do lastro — o assunto pode
+  até aparecer, mas continua barrado pelo piso de documentos. Diga isso antes, ou ele manda
+  o texto e acha que falhou.
 - **Não serve:** `trazer_fonte`. A fonte entra como referência para conferir afirmações;
   ela **não gera fatos** e não move nada no Estúdio.
 

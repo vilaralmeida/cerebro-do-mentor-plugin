@@ -1,6 +1,6 @@
 ---
 name: higienizar
-description: Use quando o mentor pedir para organizar, limpar ou arrumar o Cérebro — nomes espalhados, rótulos, ontologia, "por que a nota não sobe". Percorre diagnosticar → triar → propor → confirmar → reunir, parando em cada degrau. NÃO é esta quando a queixa for sobre o Estúdio ou a página Qualidade (poucos tópicos, tema que não aparece, recortes fracos, barrados) — aí é `qualidade`, `publicar-meus-assuntos`, `firmar-recortes` ou `destravar-a-regua`.
+description: Use quando o mentor pedir para organizar, limpar ou arrumar o Cérebro — nomes espalhados, rótulos, ontologia, "por que a nota não sobe". Percorre diagnosticar → triar → propor → confirmar → reunir, parando em cada degrau. NÃO é esta quando a queixa for sobre o Estúdio ou os números dele (poucos tópicos, tema que não aparece, recortes fracos, barrados) — aí é `qualidade`, `publicar-meus-assuntos`, `firmar-recortes` ou `destravar-a-regua`.
 user-invocable: true
 ---
 

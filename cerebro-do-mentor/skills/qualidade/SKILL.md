@@ -1,25 +1,31 @@
 ---
 name: qualidade
-description: Use quando o mentor perguntar pelos números da página Qualidade do Console — "o que significa esse número?", "minha qualidade está ruim?", "o que é recorte com lastro?", "o que é recorte firme?", "por que tenho assuntos barrados?", "o placar" — ou chegar dela sem saber o que fazer. Explica os quatro indicadores do placar, um de cada vez, e leva ao gesto que move cada um.
+description: Use quando o mentor perguntar pelos números do Estúdio — "o que significa esse número?", "minha qualidade está ruim?", "o que é recorte com lastro?", "o que é recorte firme?", "por que tenho assuntos barrados?", "o placar", "por que acendeu esse alerta?" — ou chegar de um alerta da Início sem saber o que fazer. Explica os quatro indicadores do placar, um de cada vez, e leva ao gesto que move cada um.
 user-invocable: true
 ---
 
-# O placar da Qualidade
+# O placar do Estúdio
 
-A página Qualidade do Console responde a uma pergunta só: **o Estúdio está amadurecendo
-na direção do que o mentor quer publicar?** O topo dela tem quatro indicadores, cada um
-com um veredito (bom, atenção, ruim ou não medido) e a régua que o produziu.
+O placar responde a uma pergunta só: **o Estúdio está amadurecendo na direção do que o
+mentor quer publicar?** São quatro indicadores, cada um com um veredito (bom, atenção, ruim
+ou não medido) e a régua que o produziu — e todos julgam **só o que ele declarou**.
 
-Chame `funil_do_estudio`. A resposta traz o mesmo placar da tela, **já julgado**: use o
-veredito e o critério que vierem nela, e não recalcule. Se a resposta vier sem o placar
-(só os números crus), explique com as réguas abaixo e diga que o veredito exato está na
-tela.
+⚠️ No Console o placar mora na **Início**, logo abaixo da trilha: os quatro cartões com
+veredito e critério (Início › Bons ou ruins?). Além disso, cada indicador que não sai "bom"
+acende um **alerta** logo abaixo, com a mesma régua — recortes com lastro e tópicos com
+recorte firme falam do mesmo material, e acendem um alerta só. O detalhe de cada assunto
+declarado abre na **gaveta** dele, na trilha (Início › A trilha dos seus assuntos). Não mande
+o mentor procurar o placar na Qualidade: ela saiu do menu.
+
+Chame `funil_do_estudio`. A resposta traz o placar **já julgado**: use o veredito e o
+critério que vierem nela, e não recalcule. Se a resposta vier sem o placar (só os números
+crus), explique com as réguas abaixo e diga que o veredito exato é o do placar da Início.
 
 ## Como conduzir
 
 1. **Um indicador por vez.** Comece pelo pior. Explique o que ele mede, dê o veredito
    com a régua, e só então diga o gesto que o move. Pergunte antes de passar ao próximo.
-2. **Nesta ordem de prioridade**, que é a mesma da tela: sem assunto declarado, nada mais
+2. **Nesta ordem de prioridade**, que é a mesma dos alertas: sem assunto declarado, nada mais
    tem régua; depois, os assuntos declarados que ficaram de fora; depois, os recortes;
    por último, os barrados.
 3. **"Não medido" não é zero.** Diga "não consegui olhar", nunca "está em zero".
@@ -49,8 +55,9 @@ a descrever o acervo inteiro, não o que ele quer. Aí o único gesto é declara
 > de 25%, atenção até 60%, bom a partir de 60%.**
 
 ⚠️ Dois limites que você deve saber e não precisa despejar: "dois trechos" pode ser dois
-parágrafos do **mesmo** documento, e texto escrito com IA também conta aqui. Por isso o
-número pode subir sem o material ter engrossado de verdade. → [[firmar-recortes]]
+parágrafos do **mesmo** documento, e uma resposta do próprio Cérebro reenviada ao acervo
+(eco) também conta aqui. Por isso o número pode subir sem o material ter engrossado de
+verdade. → [[firmar-recortes]]
 
 ### 3. Tópicos com recorte firme
 

@@ -1,6 +1,6 @@
 ---
 name: destravar-a-regua
-description: Use quando o mentor perguntar por assuntos que têm material e não aparecem no Estúdio — "por que X não aparece se eu falo tanto disso?", "o que são os barrados?", "rendem peça e não chegam à tela", "afrouxar a régua", "mostrar um termo que eu ocultei" — ou quando o indicador "Rendem peça e não chegam à tela" da página Qualidade estiver alto. Separa o que é régua do que é falta de material, e nunca manda carregar mais.
+description: Use quando o mentor perguntar por assuntos que têm material e não aparecem no Estúdio — "por que X não aparece se eu falo tanto disso?", "o que são os barrados?", "rendem peça e não chegam à tela", "afrouxar a régua", "mostrar um termo que eu ocultei" — ou quando o indicador "Rendem peça e não chegam à tela" estiver alto, ou acender na Início o alerta de assunto que rende e não chega ao Estúdio. Separa o que é régua do que é falta de material, e nunca manda carregar mais.
 user-invocable: true
 ---
 
@@ -28,7 +28,8 @@ certa não é "como zero isso?", é **"algum destes é assunto que você queria 
 | Motivo | Como saber | O gesto |
 |---|---|---|
 | **Ele mesmo ocultou** | Aparece na lista de ocultados da resposta | Declarar como assunto (`marcar_assunto_alvo`) fixa o assunto e passa por cima da lista. Ou tirá-lo da lista no Console, em Ontologia. |
-| **Um piso** (vizinhos, documentos, frequência) | Os demais — a leitura não diz qual | Declarar como assunto (`marcar_assunto_alvo`) passa pelos pisos de vizinhos e de documentos. Não passa pelo piso de frequência: esse só muda em Ontologia › **Quais assuntos viram tópico**. |
+| **Um piso** (vizinhos, documentos, frequência) | Os demais — a leitura não diz qual | Declarar como assunto (`marcar_assunto_alvo`) passa pelos pisos de vizinhos e de documentos. Não passa pelo piso de frequência: esse — e o de vizinhos — mudam em Configuração › **As réguas do Estúdio**, onde as quatro réguas moram juntas — e cada uma tem ao lado a tabela do que cada valor produz no acervo dele, medida todo dia às 05h10. Leia a tabela com ele antes de sugerir mexer: baixar a régua aumenta o número e traz coincidência junto. |
+| **Um tema de interesse dele que não vira tópico** | `temas_de_interesse` diz qual tema ainda não é âncora; a Início acende o alerta "O tema «X» ainda não vira tópico" | Tema nasce **fora** do Estúdio: o que ele reuniu ali não vira pauta até ser marcado. `criar_tema_de_interesse` com o mesmo nome e `ancora=True` marca — ou ele marca na tela, em Ontologia › **Quais assuntos viram tópico**. Vale na hora, sem recarga. |
 
 ⚠️ `marcar_assunto_alvo` **substitui a lista inteira** de assuntos declarados. Para somar
 um assunto, mande a lista atual mais o novo — mostre a prévia e confirme antes. Detalhes em
@@ -43,7 +44,8 @@ funcionou.
 - **Declarar** age sobre **um** assunto, o que ele escolheu. É o gesto certo quase sempre.
 - **Afrouxar um piso** (no Console) age sobre **todos**: traz o assunto que ele quer junto
   com todo o eco que a régua segurava. Se ele quiser afrouxar, diga isso com esse nome — e
-  que a série da página Qualidade deixa de ser comparável no dia em que a régua muda.
+  que a série do dia a dia (`historico_de_prontidao`) deixa de ser comparável no dia em
+  que a régua muda.
 
 Pelo plugin não há como afrouxar piso nem tirar termo da lista de ocultos: os dois só
 existem no Console. Não tente contornar com outra ferramenta — `ocultar_termos` só
