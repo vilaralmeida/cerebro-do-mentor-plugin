@@ -53,7 +53,7 @@ para olhar os recortes dele agora.
 
 - **Serve:** conhecimento do próprio mentor em mais um documento — aula, artigo,
   transcrição, caso carregado no Console, **ou** texto que ele redigiu com você e enviou
-  por `enviar_ao_acervo`. Os dois criam fatos **e** contam como segunda fonte. Ser escrito
+  por `enviar_ao_acervo` (prepare-o antes com a skill `preparar-para-o-cerebro`). Os dois criam fatos **e** contam como segunda fonte. Ser escrito
   com IA não desconta nada: o que conta é o conhecimento ser dele (#1368).
 - **Não serve:** reenviar uma resposta do próprio Cérebro. É **eco**: o servidor mede o
   conteúdo contra o que o Cérebro já produziu e deixa o eco fora do lastro — o assunto pode

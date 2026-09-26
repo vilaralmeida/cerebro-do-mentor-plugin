@@ -70,7 +70,8 @@ vizinho de virar tópico. Use o nome que a tela usa: **recortes a confirmar**.
   um trecho só, e a porcentagem sobe. O tópico continua tão fino quanto antes. Esconda um
   recorte porque ele **não faz sentido** para o mentor — nunca por causa do placar.
 - **Textos por `enviar_ao_acervo`** criam trechos novos e firmam um recorte **quando
-  trazem conhecimento dele** — redigido com IA ou não. ⚠️ Mas se você montar o texto a
+  trazem conhecimento dele** — redigido com IA ou não. Prepare-os antes com a skill
+  `preparar-para-o-cerebro`: o recorte só firma se os dois nomes caírem no mesmo trecho. ⚠️ Mas se você montar o texto a
   partir de respostas do próprio Cérebro, é eco: o recorte parece firme sem fonte nova por
   trás. Não faça isso para mexer no placar.
 - **`trazer_fonte` não serve aqui.** A fonte entra só como referência para conferir

@@ -112,7 +112,7 @@ a outra. `funil_do_estudio` separa as duas primeiras:
 - **tinha lastro e perdeu** → o lastro pode ter vindo de **eco**: uma resposta do próprio
   Cérebro que voltou ao acervo. O servidor mede isso pelo conteúdo e deixa o eco fora do
   lastro — não é segunda fonte. O gesto é **conhecimento dele em mais um documento**,
-  carregado no Console ou redigido com você e enviado por `enviar_ao_acervo`; ser escrito
+  carregado no Console ou redigido com você e enviado por `enviar_ao_acervo` (prepare-o antes com a skill `preparar-para-o-cerebro`); ser escrito
   com IA não tira o valor, desde que seja dele. ⚠️ Nunca reenvie resposta do Cérebro, e
   nunca `trazer_fonte`: a fonte entra como referência, sem fatos, e não move nada no
   Estúdio.
