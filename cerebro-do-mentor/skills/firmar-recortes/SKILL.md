@@ -79,8 +79,10 @@ vizinho de virar tópico. Use o nome que a tela usa: **recortes a confirmar**.
 ## Duas réguas para "aparecer junto"
 
 O Cérebro conta "aparecer junto no mesmo trecho" com duas réguas de confiança, de
-propósito: **vizinhos** — e o zoom de `o_que_falta_para` — contam com **confiança ≥ 0,7**;
-**recortes** contam com **confiança ≥ 0,5**. O mesmo par pode sair "1 trecho" no zoom e
+propósito: **vizinhos** — e o zoom de `o_que_falta_para` — contam com **confiança ≥ 0,7**,
+e com **≥ 0,5 nos assuntos que o mentor declarou** (alvos, fixados, temas de interesse);
+**recortes** contam com **confiança ≥ 0,5**. Declarar um assunto, portanto, também afina a
+régua dele — o zoom diz qual régua usou. O mesmo par pode sair "1 trecho" no zoom e
 "2 trechos" nos recortes. Não é erro, e não é o acervo mudando entre uma leitura e outra:
 as duas respostas dizem a régua que usaram. Se o mentor estranhar, explique isso antes
 de qualquer gesto — e nunca some ou compare os dois números como se fossem a mesma conta.
