@@ -1,6 +1,6 @@
 ---
 name: preparar-para-o-cerebro
-description: Use ANTES de `enviar_ao_acervo`, sempre que o mentor pedir para salvar, enviar ou carregar um texto no Cérebro — um artigo dele, uma anotação, o resumo de uma conversa. Reescreve o texto no formato que o Cérebro lê melhor (o assunto nomeado em cada parágrafo que trata dele, a ligação na mesma frase, as citações no fim), sem mudar o que o texto afirma nem apagar as ressalvas.
+description: Use ANTES de `enviar_ao_acervo`, sempre que o mentor pedir para salvar, enviar ou carregar um texto no Cérebro — um artigo dele, uma anotação, o resumo de uma conversa. Pergunta (ou sugere, se já escolhido) o idioma do acervo e reescreve o texto nesse idioma, no formato que o Cérebro lê melhor (o assunto nomeado em cada parágrafo que trata dele, a ligação na mesma frase, as citações no fim), sem mudar o que o texto afirma nem apagar as ressalvas.
 user-invocable: true
 ---
 
@@ -15,6 +15,30 @@ texto cita passaram de nenhuma para 4 de 7.
 
 Esta versão é **a do acervo**, não a que o mentor publica. O Estúdio escreve as peças a partir
 do que o Cérebro entendeu; o texto daqui é para ser bem entendido, não para ser bonito.
+
+## Primeiro: o idioma da carga
+
+Um idioma só no acervo dá coesão ao Cérebro: o mesmo conceito vira um nome, e não dois
+nomes soltos (decisão do dono do produto). Antes de preparar:
+
+1. Chame `idioma_da_carga`.
+2. **Já escolhido:** sugira — *"Vou preparar em português, como você definiu. Pode ser?"*
+3. **Ainda não escolhido:** pergunte em que idioma o acervo deve ficar, e diga que a escolha
+   fica lembrada para as próximas cargas. Sugira o idioma em que o mentor conversa com você.
+4. Se o texto de origem está em outro idioma, **traduza fielmente** para o escolhido, com as
+   mesmas regras abaixo — nada novo, nada a menos, ressalvas intactas.
+5. Ao enviar, passe o idioma: `enviar_ao_acervo(..., idioma="pt")`. É isso que o Cérebro
+   lembra.
+
+⚠️ **Termo estrangeiro: só no idioma escolhido.** Escreva "textualismo", e não
+"Textualism — textualismo" nem "textualismo (textualism)". MEDIDO num glossário real de 13
+termos: com o original na frente, 7 termos em inglês viraram nomes soltos no Cérebro; com o
+original entre parênteses, **13** — o parêntese piora; só no idioma escolhido, 1. E o termo
+traduzido passou a ser reconhecido com mais confiança (5 → 10 de 13). O original, se
+importar como referência, vai para a seção "Fontes". Exceção: termo que o idioma escolhido
+usa como está ("mens rea", "due diligence") fica como é.
+
+⚠️ O mesmo vale para **títulos**: traduza, sem repetir o título original ao lado.
 
 ## As regras
 
@@ -51,7 +75,7 @@ do que o Cérebro entendeu; o texto daqui é para ser bem entendido, não para s
 
 Mostre ao mentor a versão preparada e diga em uma frase o que mudou ("pus o nome do assunto
 em 5 parágrafos e passei os autores para as fontes"). Só envie depois do sim dele, com
-`enviar_ao_acervo(..., preparado=true)` — o Cérebro então sabe que o assunto já vem nomeado
+`enviar_ao_acervo(..., idioma="pt", preparado=true)` — o Cérebro então sabe que o assunto já vem nomeado
 onde é discutido, e não o espalha pelos parágrafos que não tratam dele.
 
 Se ele disser "manda como está", envie o texto dele sem preparar, com `preparado=false`.
