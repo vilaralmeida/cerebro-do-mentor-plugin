@@ -2,7 +2,8 @@
 
 Converse com o seu **Cérebro do Mentor** e cuide dele dentro do Claude: veja o que mudou
 no acervo, entenda a nota de organização, reúna nomes espalhados, pode o vocabulário e
-responda aos conselhos da nossa equipe. **Nada é escrito sem você confirmar.**
+converse com a nossa equipe — responda aos conselhos dela, peça um ajuste ou a releitura
+do acervo, conteste um termo marcado como lixo. **Nada é escrito sem você confirmar.**
 
 ## Instalar
 
