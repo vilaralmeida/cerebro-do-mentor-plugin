@@ -252,17 +252,24 @@ deixar em dúvida, e deixe-o escolher.
 ⚠️ Pergunte antes de enviar, e não invente o motivo: ele é o único contexto de domínio
 que a equipe recebe.
 
-## As quarenta e sete, pelo que custam
+## As quarenta e oito, pelo que custam
 
 | Custo | Ferramentas |
 |---|---|
 | **Lê, de graça** | `o_que_mudou`, `roteiro`, `diagnosticar_nota`, `triar_fila`, `propor_lote`, `custo_de_podar`, `recomendacoes`, `assuntos_por_prontidao`, `saude_do_rotulo`, `rendimento_da_carga`, `o_que_falta_para`, `historico_de_prontidao`, `origem_da_peca`, `temas_declarados`, `temas_de_interesse`, `recortes_do_topico`, `funil_do_estudio`, `idioma_da_carga`, `lixo_marcado`, `meus_pedidos`, `mensagens_da_equipe`, `perguntas_da_voz`, `kit_de_preparacao` |
-| **Lê, e consome crédito do mentor** | `consultar_cerebro` |
+| **Lê, e consome crédito do mentor** | `consultar_cerebro`, `plateia_da_peca` |
 | **Escreve, com trava de confirmação** | `reunir`, `aceitar_agrupamento`, `renomear_tema`, `remover_declaracao`, `podar_rotulo`, `criar_rotulo`, `ocultar_termos`, `dispensar_da_fila`, `criar_tema_de_interesse`, `ajustar_recorte`, `marcar_assunto_alvo`, `virar_conversa_em_peca`, `desfazer_agrupamento`, `tirar_ancora`, `definir_area`, `definir_voz` |
 | **Escreve, sem trava — pergunte igual** | `enviar_ao_acervo`, `trazer_fonte`, `responder_recomendacao`, `pedir_refino`, `pedir_releitura`, `contestar_lixo`, `responder_mensagem` |
 
 As vinte e três de graça não têm por que ser economizadas: **leia antes de propor, sempre**.
 `consultar_cerebro` tem — faça uma pergunta bem formada em vez de várias sondagens.
+`plateia_da_peca` também: avalie a versão que o mentor pretende PUBLICAR, não cada rascunho.
+
+**A plateia (experimental) é segunda opinião, não veredito.** Ela mostra como leitores
+SIMULADOS — paciente, colega da área, jornalista… — reagiriam a uma peça do Estúdio ou a um
+post escrito na conversa, com um placar de 0 a 100. Diga isso ao apresentar o número, e leia
+junto o que pesa: o crítico, e os sinais "promete resultado" e "parece IA". Promessa de
+resultado é sinal, não o parecer do conselho: a conformidade é a revisão do Estúdio.
 
 ## O que nunca fazer
 
