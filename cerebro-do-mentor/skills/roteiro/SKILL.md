@@ -10,6 +10,19 @@ Chame `roteiro` e **conduza pela pergunta que ele devolve**, uma de cada vez. Re
 com o mentor antes de mencionar a seguinte — despejar os seis passos de uma vez é o
 oposto de um roteiro.
 
+**O começo pode ser feito inteiro aqui, na conversa** (#1569). Quando a pergunta for de um
+passo de configuração, resolva-o com ele por aqui em vez de mandá-lo ao Console:
+- **a área** — `definir_area` sem área lista as opções; pergunte qual é a mais próxima do
+  que ele ensina (o conselho da profissão vem junto);
+- **a voz** — `perguntas_da_voz`, uma pergunta de cada vez, e depois `definir_voz` com as
+  palavras DELE; só a bio e a assinatura são necessárias para começar;
+- **o primeiro material** — sugira o que é DELE (artigos, aulas, palestras) e prepare com
+  [[preparar-para-o-cerebro]] antes de `enviar_ao_acervo`. ⚠️ Diga que o texto **espera a
+  aprovação dele no Console** (no Acervo, botão **Revisar e aprovar**) — só depois o passo conta. PDF
+  sobe pelo Console. Fonte pública (lei, norma) entra por `trazer_fonte`, como referência;
+  ela confere, mas não vira conteúdo dele;
+- **a primeira peça** — `virar_conversa_em_peca`, sobre um assunto que ele domina.
+
 ⚠️ **Seis caixas marcadas não quer dizer que ele publica bem.** Se o veredito disser que os
 passos estão cumpridos mas os assuntos rendem pouco, diga o que destrava: **carregar mais
 material** sobre os assuntos fracos — não mexer em configuração.
