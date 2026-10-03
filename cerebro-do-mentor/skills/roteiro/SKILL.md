@@ -16,11 +16,13 @@ passo de configuração, resolva-o com ele por aqui em vez de mandá-lo ao Conso
   que ele ensina (o conselho da profissão vem junto);
 - **a voz** — `perguntas_da_voz`, uma pergunta de cada vez, e depois `definir_voz` com as
   palavras DELE; só a bio e a assinatura são necessárias para começar;
-- **o primeiro material** — sugira o que é DELE (artigos, aulas, palestras) e prepare com
+- **o primeiro material** — `kit_de_preparacao` traz a lista da área dele. Sugira o que é
+  DELE (artigos, aulas, palestras) e prepare com
   [[preparar-para-o-cerebro]] antes de `enviar_ao_acervo`. ⚠️ Diga que o texto **espera a
   aprovação dele no Console** (no Acervo, botão **Revisar e aprovar**) — só depois o passo conta. PDF
   sobe pelo Console. Fonte pública (lei, norma) entra por `trazer_fonte`, como referência;
-  ela confere, mas não vira conteúdo dele;
+  ela confere, mas não vira conteúdo dele. Pergunte a área de atuação antes e ofereça só o
+  grupo dela — e livro ou doutrina de outro autor, nunca;
 - **a primeira peça** — `virar_conversa_em_peca`, sobre um assunto que ele domina.
 
 ⚠️ **Seis caixas marcadas não quer dizer que ele publica bem.** Se o veredito disser que os
