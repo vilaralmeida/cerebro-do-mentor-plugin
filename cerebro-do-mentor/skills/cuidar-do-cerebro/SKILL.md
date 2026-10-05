@@ -266,8 +266,10 @@ As vinte e três de graça não têm por que ser economizadas: **leia antes de p
 `plateia_da_peca` também: avalie a versão que o mentor pretende PUBLICAR, não cada rascunho.
 
 **A plateia (experimental) é segunda opinião, não veredito.** Ela mostra como leitores
-SIMULADOS — paciente, colega da área, jornalista… — reagiriam a uma peça do Estúdio ou a um
-post escrito na conversa, com um placar de 0 a 100. Diga isso ao apresentar o número, e leia
+SIMULADOS — os da área do mentor: paciente e colega da profissão na saúde, cliente e colega
+advogado no jurídico — reagiriam a uma peça do Estúdio ou a um post escrito na conversa, com um
+placar de 0 a 100. Se a resposta disser que a plateia é a GENÉRICA, a área dele ainda não tem
+plateia própria: diga isso também. Diga que é simulado ao apresentar o número, e leia
 junto o que pesa: o crítico, e os sinais "promete resultado" e "parece IA". Promessa de
 resultado é sinal, não o parecer do conselho: a conformidade é a revisão do Estúdio.
 
