@@ -264,6 +264,8 @@ que a equipe recebe.
 As vinte e três de graça não têm por que ser economizadas: **leia antes de propor, sempre**.
 `consultar_cerebro` tem — faça uma pergunta bem formada em vez de várias sondagens.
 `plateia_da_peca` também: avalie a versão que o mentor pretende PUBLICAR, não cada rascunho.
+⚠️ E avaliar uma PEÇA do Estúdio **registra** a avaliação no histórico dela (a tela da peça
+mostra depois); avaliar um texto da conversa não grava nada.
 
 **A plateia (experimental) é segunda opinião, não veredito.** Ela mostra como leitores
 SIMULADOS — os da área do mentor: paciente e colega da profissão na saúde, cliente e colega
