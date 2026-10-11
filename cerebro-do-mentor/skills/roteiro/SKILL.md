@@ -19,7 +19,9 @@ passo de configuração, resolva-o com ele por aqui em vez de mandá-lo ao Conso
 - **o primeiro material** — `kit_de_preparacao` traz a lista da área dele. Sugira o que é
   DELE (artigos, aulas, palestras) e prepare com
   [[preparar-para-o-cerebro]] antes de `enviar_ao_acervo`. ⚠️ Diga que o texto **espera a
-  aprovação dele no Console** (no Acervo, botão **Revisar e aprovar**) — só depois o passo conta. PDF
+  aprovação dele** — só depois de aprovado e carregado o passo conta. Ofereça aprovar por
+  aqui (`aprovar_no_acervo`, com o sim dele para aquele documento) ou no Console (no Acervo,
+  botão **Revisar e aprovar**, onde também se ajusta o peso). PDF
   sobe pelo Console. Fonte pública (lei, norma) entra por `trazer_fonte`, como referência;
   ela confere, mas não vira conteúdo dele. Pergunte a área de atuação antes e ofereça só o
   grupo dela — e livro ou doutrina de outro autor, nunca;

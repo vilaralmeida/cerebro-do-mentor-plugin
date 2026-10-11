@@ -158,7 +158,7 @@ respondeu — repita isso ao mentor em vez de tranquilizá-lo.
 
 ## ⚠️ A regra que não se dobra
 
-**Você nunca age sem perguntar.** Dezoito ferramentas exigem `confirmado=True` e recusam
+**Você nunca age sem perguntar.** Dezenove ferramentas exigem `confirmado=True` e recusam
 sem ele; outras sete escrevem sem esse parâmetro (`enviar_ao_acervo`, `trazer_fonte`,
 `responder_recomendacao`, `pedir_refino`, `pedir_releitura`, `contestar_lixo`,
 `responder_mensagem`) — **para
@@ -192,7 +192,7 @@ O mesmo gesto pode valer agora, valer só depois, ou as duas coisas. **Diga semp
 | **Agora, e sobrevive à próxima carga** | `reunir` | Os fatos mudam de rótulo na hora, e continuam assim depois. |
 | **Agora, mas só na leitura** | `ocultar_termos`, `criar_rotulo(ancora=True)`, `criar_tema_de_interesse`, `ajustar_recorte`, `aceitar_agrupamento` (a lista de tópicos), `desfazer_agrupamento`, `tirar_ancora` | Muda o que ele vê nas pautas hoje. Não muda o que já foi extraído. |
 | **Só na próxima carga** | `podar_rotulo`, `criar_rotulo`, `aceitar_agrupamento` (o reconhecimento) | ⚠️ **Ele não vai ver nada mudar hoje.** Avise antes, ou ele repete o gesto achando que falhou. |
-| **Depois de ele aprovar, e da carga** | `enviar_ao_acervo`, `trazer_fonte` | O texto entra como pendente; nada muda até ele aprovar no Console e a carga rodar. ⚠️ E o que entra por `enviar_ao_acervo` **nunca** conta como lastro: alimenta chat e peças, não atravessa piso. |
+| **Depois de ele aprovar, e da carga** | `enviar_ao_acervo`, `trazer_fonte` | O texto entra como pendente; nada muda até ele aprovar (`aprovar_no_acervo`, item a item, ou no Console) e a carga rodar. ⚠️ E o que entra por `enviar_ao_acervo` **nunca** conta como lastro: alimenta chat e peças, não atravessa piso. |
 
 ## Dois fluxos que parecem um só
 
@@ -252,16 +252,16 @@ deixar em dúvida, e deixe-o escolher.
 ⚠️ Pergunte antes de enviar, e não invente o motivo: ele é o único contexto de domínio
 que a equipe recebe.
 
-## As cinquenta e duas, pelo que custam
+## As cinquenta e quatro, pelo que custam
 
 | Custo | Ferramentas |
 |---|---|
-| **Lê, de graça** | `o_que_mudou`, `roteiro`, `diagnosticar_nota`, `triar_fila`, `propor_lote`, `custo_de_podar`, `recomendacoes`, `assuntos_por_prontidao`, `saude_do_rotulo`, `rendimento_da_carga`, `o_que_falta_para`, `historico_de_prontidao`, `origem_da_peca`, `temas_declarados`, `temas_de_interesse`, `recortes_do_topico`, `funil_do_estudio`, `idioma_da_carga`, `lixo_marcado`, `meus_pedidos`, `mensagens_da_equipe`, `perguntas_da_voz`, `kit_de_preparacao`, `localizar_trechos`, `revogados` |
+| **Lê, de graça** | `o_que_mudou`, `roteiro`, `diagnosticar_nota`, `triar_fila`, `propor_lote`, `custo_de_podar`, `recomendacoes`, `assuntos_por_prontidao`, `saude_do_rotulo`, `rendimento_da_carga`, `o_que_falta_para`, `historico_de_prontidao`, `origem_da_peca`, `temas_declarados`, `temas_de_interesse`, `recortes_do_topico`, `funil_do_estudio`, `idioma_da_carga`, `lixo_marcado`, `meus_pedidos`, `mensagens_da_equipe`, `perguntas_da_voz`, `kit_de_preparacao`, `localizar_trechos`, `revogados`, `pendentes_no_acervo` |
 | **Lê, e consome crédito do mentor** | `consultar_cerebro`, `plateia_da_peca` |
-| **Escreve, com trava de confirmação** | `reunir`, `aceitar_agrupamento`, `renomear_tema`, `remover_declaracao`, `podar_rotulo`, `criar_rotulo`, `ocultar_termos`, `dispensar_da_fila`, `criar_tema_de_interesse`, `ajustar_recorte`, `marcar_assunto_alvo`, `virar_conversa_em_peca`, `desfazer_agrupamento`, `tirar_ancora`, `definir_area`, `definir_voz`, `revogar`, `desfazer_revogacao` |
+| **Escreve, com trava de confirmação** | `reunir`, `aceitar_agrupamento`, `renomear_tema`, `remover_declaracao`, `podar_rotulo`, `criar_rotulo`, `ocultar_termos`, `dispensar_da_fila`, `criar_tema_de_interesse`, `ajustar_recorte`, `marcar_assunto_alvo`, `virar_conversa_em_peca`, `desfazer_agrupamento`, `tirar_ancora`, `definir_area`, `definir_voz`, `revogar`, `desfazer_revogacao`, `aprovar_no_acervo` |
 | **Escreve, sem trava — pergunte igual** | `enviar_ao_acervo`, `trazer_fonte`, `responder_recomendacao`, `pedir_refino`, `pedir_releitura`, `contestar_lixo`, `responder_mensagem` |
 
-As vinte e cinco de graça não têm por que ser economizadas: **leia antes de propor, sempre**.
+As vinte e seis de graça não têm por que ser economizadas: **leia antes de propor, sempre**.
 
 **Revogar não é ocultar.** Quando o mentor diz que algo do acervo está SUPERADO ou ERRADO num
 lugar — "aquela diretriz de 2019 mudou", "nesse parágrafo, ética não é o assunto ética" —, o
