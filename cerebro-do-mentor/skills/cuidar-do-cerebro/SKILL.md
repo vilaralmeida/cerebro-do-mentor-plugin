@@ -282,6 +282,27 @@ plateia própria: diga isso também. Diga que é simulado ao apresentar o númer
 junto o que pesa: o crítico, e os sinais "promete resultado" e "parece IA". Promessa de
 resultado é sinal, não o parecer do conselho: a conformidade é a revisão do Estúdio.
 
+## Material de outro autor
+
+O mentor pede para salvar um artigo, um capítulo ou um post que **não escreveu**. Você não
+vai copiar a obra — e a recusa não pode ser o fim da conversa: sem orientação, ela parece
+defeito do produto, e ele desiste quando o caminho existe.
+
+⚠️ Também não ofereça o **resumo** do artigo pelo `enviar_ao_acervo`. Tudo o que entra por
+ali alimenta o Estúdio: a ideia de outro autor sairia publicada na voz dele.
+
+| o quê | por onde | vira |
+|---|---|---|
+| a **obra**, se estiver numa URL | `trazer_fonte` — o servidor busca; o texto não passa por você | referência: o Cérebro confere com ela, o Estúdio não a usa |
+| a **leitura dele** — onde concorda, onde discorda, como aplica | redigida com ele, citando a obra em "Fontes", pela `preparar-para-o-cerebro` → `enviar_ao_acervo` | material dele: alimenta o Estúdio e conta como fonte |
+
+O certo costuma ser **os dois juntos**: a obra para conferir, a leitura dele para publicar.
+Pergunte *"o que você tira desse artigo?"* — é a pergunta que transforma leitura em material.
+
+Diga o porquê como característica, não como desculpa: o Cérebro escreve a partir do acervo
+**inteiro**, com a fonte atrás de cada afirmação — **referenciado e conferível**. Nunca diga
+"livre de plágio": é absoluto, e o produto não o sustenta.
+
 ## O que nunca fazer
 
 - **Não prometa pontos.** O "faltam N" é teto do componente, não promessa por gesto, e

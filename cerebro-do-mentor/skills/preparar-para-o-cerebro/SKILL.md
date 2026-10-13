@@ -16,6 +16,11 @@ texto cita passaram de nenhuma para 4 de 7.
 Esta versão é **a do acervo**, não a que o mentor publica. O Estúdio escreve as peças a partir
 do que o Cérebro entendeu; o texto daqui é para ser bem entendido, não para ser bonito.
 
+⚠️ **Só texto do mentor.** Se o texto é de outro autor (artigo, capítulo, post de terceiro),
+não prepare nem envie — nem inteiro, nem resumido. A obra vai por `trazer_fonte`, como
+referência; o que ele tira dela, redigido com ele e citando-a, é que se prepara aqui. Veja
+"Material de outro autor" na skill `cuidar-do-cerebro`.
+
 ## Primeiro: o idioma da carga
 
 Um idioma só no acervo dá coesão ao Cérebro: o mesmo conceito vira um nome, e não dois
